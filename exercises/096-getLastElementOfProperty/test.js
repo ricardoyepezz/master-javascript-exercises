@@ -27,7 +27,7 @@ test ('The function must return the last element of the array located at a given
     console.log(output); // --> 5
    
     expect(output).toBe(9);
-})
+}) 
 
 test ('The function must return undefined if there is no property at a given key.', () => {
     const getLastElementOfProperty = rewire ('./app.js').__get__("getLastElementOfProperty");
